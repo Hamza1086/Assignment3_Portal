@@ -1,0 +1,3 @@
+Shahid 50
+Adeel 100
+Iqra 600

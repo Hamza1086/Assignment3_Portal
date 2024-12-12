@@ -1,0 +1,26 @@
+.custom-button {
+    -fx-background-color: rgba(0, 0, 0, 0.76); /* Solid black background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 10, 0.2, 0, 4);
+    -fx-cursor: hand;
+    -fx-border-color: #FFFFFF; /* White border for contrast */
+}
+
+.custom-button:hover {
+    -fx-background-color: white; /* Slight gradient for hover */
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.35), 10, 0.3, 0, 6);
+    -fx-border-color: black;
+    -fx-text-fill: black;
+}
+
+.custom-button:pressed {
+    -fx-background-color: rgba(0, 0, 0, 0.47); /* Darker black when pressed */
+    -fx-effect: none; /* Remove shadow when pressed */
+}
+

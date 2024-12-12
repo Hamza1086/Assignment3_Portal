@@ -1,0 +1,64 @@
+/* General styling for AnchorPane */
+.root {
+    -fx-background-color: #f4f4f9;
+    -fx-padding: 10;
+}
+
+/* Styling for Labels */
+.label {
+    -fx-text-fill: black;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+}
+
+/* Welcome Label specific style */
+#welcomeLabel {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+/* Styling for Buttons */
+.button {
+    /*-fx-background-color: #3498db;*/
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 6 6;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0, 0, 1);
+}
+
+
+.text-field, .password-field {
+    -fx-background-color: #ecf0f1;
+    -fx-text-fill: #2c3e50;
+    -fx-font-size: 14px;
+    -fx-padding: 5 10;
+    -fx-background-radius: 5;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5;
+}
+
+
+/* Specific Button IDs */
+#signInBtn {
+    -fx-background-color: #2ecc71;
+}
+
+#signInBtn:hover {
+    -fx-background-color: #bdbaba;
+    -fx-text-fill: black;
+}
+
+#backBtn {
+    -fx-background-color: #e74c3c;
+}
+
+#backBtn:hover {
+    -fx-background-color: #bdbaba;
+    -fx-text-fill: black;
+}

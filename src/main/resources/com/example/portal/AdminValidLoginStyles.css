@@ -1,0 +1,61 @@
+/* Apply a professional font style globally */
+* {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 14px;
+}
+
+#navBar{
+    -fx-background-color: transparent;
+    -fx-border-color: #222237;
+    -fx-background-color: #2d2d4a;
+}
+
+#navBar Label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+
+
+/* Background style for the VBox */
+VBox {
+    -fx-background-color: #F8F9FA;
+    -fx-padding: 10px;
+    -fx-border-color: #D1D1D1; /* Subtle border around the VBox */
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(248, 246, 246, 0.15), 4, 1, 0, 2);
+    -fx-cursor: hand;
+}
+
+.vbox-item {
+    -fx-padding: 8px 15px; /* Adjusted padding for a larger clickable area */
+    -fx-background-color: #2d2d4a;
+    -fx-border-color: transparent;
+    -fx-border-width: 1;
+    -fx-border-radius: 5px;
+}
+
+/* Hover effect for VBox items */
+.vbox-item:hover {
+    -fx-background-color: #b2b2d6; /* Light gray background on hover */
+    -fx-border-color: black; /* Slight border on hover */
+    -fx-border-width: 1.5;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    /*-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 2, 0.5, 1, 1);*/
+}
+
+
+.vbox-item Label {
+    -fx-text-fill: white; /* Darker text for better visibility */
+    -fx-font-weight: bold; /* Make the label text slightly bold for emphasis */
+}
+
+/* Styling images for consistency */
+.vbox-item ImageView {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 3, 0.5, 1, 1);
+    -fx-opacity: 0.85;
+}
+
+
