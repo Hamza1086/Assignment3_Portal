@@ -26,6 +26,8 @@ public class AdminLoginController {
     @FXML
     Label invalidLabel;
 
+    
+
 
     File file = new File("AdminLoginUserPass.txt");
 
